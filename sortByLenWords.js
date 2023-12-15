@@ -19,5 +19,3 @@ let sortByLenWords = arrWords.join(' ')
 console.log(words);
 console.log(arrWords);
 console.log(sortByLenWords)
-
-
