@@ -1,3 +1,5 @@
+"use strict"
+
 let arrQuestions = [
     "What is the capital of Armenia?Yerevan,Moscow,Washington,Tbilisi",
     "What is the capital of Russia?Moscow,Yerevan,Washington,Tbilisi",

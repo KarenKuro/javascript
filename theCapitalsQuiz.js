@@ -1,3 +1,5 @@
+"use strict"
+
 let countryCapitalObj = {
     Armenia : "Yerevan",
     Russia : "Moscow",
