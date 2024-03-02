@@ -25,4 +25,4 @@ function fromRomeToArabic (str) {
 console.log(fromRomeToArabic('MCDLXIII'));
 console.log(fromRomeToArabic('MCMLXXII'));
 console.log(fromRomeToArabic('CCXXII'));
-
+console.log(fromRomeToArabic('CCXXII'));
