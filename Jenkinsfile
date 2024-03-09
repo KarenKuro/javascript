@@ -1,10 +1,12 @@
 pipeline {
     agent any 
-    stages {
-        stage('Stage 1') {
-            steps {
-                echo 'Hello world!' 
-            }
-        }
-    }
+    triggers {
+    GenericTrigger(
+        genericVariables: [
+            [defaultValue: '', key: 'base', regexpFilter: '', value: '$.ref'],
+            ],
+     causeString: 'Triggered on $ref',
+     token: 'KKK',
+     tokenCredentialId: '' )
+  }
 }
