@@ -9,4 +9,11 @@ pipeline {
      token: 'KKK',
      tokenCredentialId: '' )
   }
+    stages {
+        stage ("hello"){
+            steps {
+                echo "Hello world"
+            }
+        }
+    }
 }
